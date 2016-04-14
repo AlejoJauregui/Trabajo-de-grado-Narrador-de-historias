@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{FE9F429D-DD45-C3EB-AFEB-6C173B1D5F27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_2;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUIEffects.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUIMainCamera.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUITween.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\CloudScript.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\EnvironmentScript.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\HeightResize.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\SpriteResizer.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\WidthResize.cs" />
+     <Compile Include="Assets\JSON\JSONObject.cs" />
+     <Compile Include="Assets\JSON\JSONTemplates.cs" />
+     <Compile Include="Assets\JSON\VectorTemplates.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\Models\BEP3\BEP_3_Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Models\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Models\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Databases\UIItemDatabase.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Databases\UISpellDatabase.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Databases\UITalentDatabase.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Demo\Demo_LoadScene.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Demo\UIBlackOverlay.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Demo\UILevelFrame.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Demo\UIStatsAdd.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Effects\Gradient.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Effects\NicerOutline.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\AnimationTriggersExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\ColorBlockExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\SpriteStateExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UIEquipmentType.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UIItemInfo.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UIItemSlot_Group.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UISpellInfo.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UISpellInfo_Flags.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UISpellSlot_Group.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UITalentInfo.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UITooltipLines.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Enums, Structs and Serializables\UIWindowID.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\HorizontalLayoutGroupExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\HorizontalOrVerticalLayoutGroupExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\ILayoutElementExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\LayoutElementExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\LayoutUtilityExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Layout\VerticalLayoutGroupExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\BitMaskAttribute.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\BreakPrefabConnection.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\CommonColorBuffer.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\LetterSpacing.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\NameAppendIndex.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\UITextSetValue.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\UIToggleWindowAndTab.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Miscellaneous\UIUtility.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Raycast Filters\UICircularRaycastFilter.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Raycast Filters\UIIgnoreRaycast.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Raycast Filters\UIMaskRaycastFilter.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Raycast Filters\UIRectangularRaycastFilter.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_FadeInOut.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_Fill.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UIEquipSlot_Assign.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UIItemSlot_Assign.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UIProgressBar.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UISlotBase_Assign.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UISpellSlot_Assign.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Test Scripts\Test_UITalentSlot_Assign.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\ColorTween.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\FloatTween.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\ITweenValue.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\TweenEasing.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\TweenEasingHandler.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\TweenRunner.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\Vector2Tween.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\Tweening\Vector3Tween.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UIEquipReceiver.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UIEquipSlot.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UIItemSlot.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UIItemSlotOverlay.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UISlotBase.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UISlotCooldown.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UISpellSlot.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Icon Slot System\UITalentSlot.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Select Field\UISelectField.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Select Field\UISelectField_Arrow.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Select Field\UISelectField_Label.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Select Field\UISelectField_List.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\Select Field\UISelectField_Option.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIButtonExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIButtonExtended_Target.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIDragObject.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIFlippable.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIHighlightTransition.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UILoadingBar.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIPagination.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIProgressBar.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UISliderExtended.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UITab.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIToggle_OnOff.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UITooltip.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIWindow.cs" />
+     <Compile Include="Assets\Models\Warforge Mobile UI\Scripts\UI\UIWindowManager.cs" />
+     <Compile Include="Assets\Scripts\AudioLibrary.cs" />
+     <Compile Include="Assets\Scripts\BeginTheStoryCommand.cs" />
+     <Compile Include="Assets\Scripts\ChooseAngryStoryCommand.cs" />
+     <Compile Include="Assets\Scripts\ChooseHappyStoryCommand.cs" />
+     <Compile Include="Assets\Scripts\ChooseSadStoryCommand.cs" />
+     <Compile Include="Assets\Scripts\Command.cs" />
+     <Compile Include="Assets\Scripts\Ilusion_Load.cs" />
+     <Compile Include="Assets\Scripts\JSonReader.cs" />
+     <Compile Include="Assets\Scripts\Load_Level.cs" />
+     <Compile Include="Assets\Scripts\Load_Main_Menu.cs" />
+     <Compile Include="Assets\Scripts\Pause_Game.cs" />
+     <Compile Include="Assets\Scripts\StoryTeller.cs" />
+     <Compile Include="Assets\Scripts\StoryTellerCommand.cs" />
+     <Compile Include="Assets\Scripts\StoryTellerInvoker.cs" />
+     <Compile Include="Assets\Scripts\TrafficLights.cs" />
+     <Compile Include="Assets\Scripts\WebCam.cs" />
+     <Compile Include="Assets\Scripts\WebServiceConnection.cs" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\JSON\readme.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Models\Warforge Mobile UI\Readme.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Models\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\3DForge\FantasyExteriors\Village &amp; Towns\Documents\Blacksmith v1.0 - user guide.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Models\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Models\BEP3\readme.txt" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Models\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Models\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Models\Warforge Mobile UI\Changelog.txt" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Models\BEP3\BEP_3_Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Models\Village or Medieval Things\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>/Users/Alejo_Jauregui/Documents/Unity Projects/Trabajo de grado/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>/Users/Alejo_Jauregui/Documents/Unity Projects/Trabajo de grado/Assets/RAIN/RAINMetaform.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
